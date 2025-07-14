@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap');
+body {
+  background: #000000;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: "Libertinus Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header{
+  background: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 15px;
+  padding: 1px 0;
+}
+
+.container{
+  width: 800px;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgb(255, 255, 255);
+  overflow: hidden;
+  position: relative;
+  padding: 10px;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background: #ffffff;
+  
+}
+
+.img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid white;
+  box-shadow: 0 0 10px rgba(23, 10, 10, 0.837);
+  margin-right: 200px;
+}
+
+.contact{
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.605);
+  background-color: rgba(48, 38, 38, 0.211);
+  grid-area: inherit 250px;
+  height: 250px;
+  width: 250px;
+  box-sizing: border-box;
+}
+
+  .contact h1{
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .contact .title {
+  color: rgb(0, 0, 0);
+  margin-bottom: 5px;
+  margin-top: 1px;
+  font-size: 14px;
+  }
+
+  .contact .info{
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+  .abc{
+    margin: 9px;
+  }
+
+  .img{
+    height: 250px;
+    width: 250px;
+    margin-right: 120px;
+    margin-left: 58px;
+  }
+
+  .contact-info {
+    font-size: 14px;
+    margin-top: 0px;
+  }
+
+  .info{
+    margin-bottom: 1px;
+    padding: none;
+    margin: none;
+    margin-block-start: 10px;
+  }
+  .heading {
+    margin: 20px;
+    padding: 6px;
+    display: inline;
+    background-color: rgba(128, 128, 128, 0.419);
+    border-radius: 10px;
+  }
+
+.left-box, .right-box{
+  flex: 1;
+  width: 50%;
+}
+
+.resume-container {
+display: flex;
+gap: 20px;
+}
